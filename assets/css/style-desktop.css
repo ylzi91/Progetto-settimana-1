@@ -9,7 +9,7 @@
 body{
     color: #393d41;
     font-size: 1.2rem;
-    line-height: 1.65;
+    line-height: 1.65rem;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -80,6 +80,7 @@ header img{
 section{
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .pills{
@@ -131,6 +132,10 @@ h2, #cit p{
     font-style: normal;
 }
 
+#cit cite p:last-child{
+    font-size: 0.7em;
+}
+
 #cit cite p{
     margin-bottom: 0;
 }
@@ -155,7 +160,7 @@ h2, #cit p{
 .fotopills img{
     width: 100%;
     height: 250px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 
 }
 
