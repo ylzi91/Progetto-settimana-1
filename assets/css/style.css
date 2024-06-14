@@ -20,7 +20,7 @@ h1, h2, h3, h4 ,h5 ,h6{
     color: #25a2c3;
 }
 
-header, section, footer, article, #banner, #cit{
+header, section, footer, #banner, #cit{
     width: 100%;
     text-align: center;
 }
@@ -43,6 +43,12 @@ header img{
     margin-bottom: 40px;
 }
 
+#banner h1, #banner p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
 #banner p{
     margin-bottom: 20px;
 
@@ -61,16 +67,19 @@ header img{
 
 }
 
-section, #benner{
-    padding-left: 10px;
-    padding-right: 10px;
-}
+
 /*
 #banner{
     padding-left: 20px;
     padding-right: 20px;
 }
 */
+
+.pills{
+    width: 80%;
+    margin-left: auto ;
+    margin-right: auto;
+}
 
 .pills p, .pills .fotina{
     margin-bottom: 30px;
