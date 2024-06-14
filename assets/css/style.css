@@ -133,6 +133,11 @@ h2, #cit p{
 
 }
 
+.fotopills p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 footer{
     background-color: #3e9cb6;
     padding-top: 30px;
